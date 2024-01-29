@@ -21,11 +21,9 @@ const Hero = () => {
                             Hi, I am <span className="text-[#915EFF]">Umut</span>
                         </h1>
                         <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-                            I'm a software developer with experience in TypeScript and{" "}
+                            I develop 3D visuals, user interfaces and web applications.
                             <br className="sm:block hidden" />
-                            JavaScript, and expertise in frameworks like React, Node.js,{" "}
-                            <br className="sm:block hidden" />
-                            and Three.js.
+                            Creating interactive experiences is my passion.
                         </p>
                     </div>
                 </div>
