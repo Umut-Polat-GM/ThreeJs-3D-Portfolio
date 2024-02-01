@@ -18,6 +18,8 @@ import {
     docker,
     threejs,
     logo,
+    linkedin,
+    github,
 } from "../assets";
 
 export const navLinks = [
@@ -51,6 +53,21 @@ const services = [
     {
         title: "MERN Stack Developer",
         icon: web,
+    },
+];
+
+const socials = [
+    {
+        name: "LinkedIn",
+        icon: linkedin,
+        link: "https://www.linkedin.com/in/umut-polat/",
+        color: "#0077B5",
+    },
+    {
+        name: "Github",
+        icon: github,
+        link: "https://github.com/Umut-Polat-GM",
+        color: "#000000",
     },
 ];
 
@@ -249,4 +266,4 @@ const projects = [
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, socials };
